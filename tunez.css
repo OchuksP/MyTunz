@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    padding: 1% 1%;
+    background-color: rgba(32, 31, 43, 0.885);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Tunz {
+    display: none;
+}
+.links {
+    text-align: left;
+    flex: 1px;
+}
+.links ul li {
+    list-style: none;
+    display: inline-block;
+}
+.links a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    padding: 17px;
+}
+.links a:hover {
+    background-color: rgba(39, 38, 50, 0.885);
+    transition: 0.5s;
+}
+
+.first {
+    background-image: linear-gradient(rgba(15, 22, 58, 0.582), rgb(31, 6, 7)), url(Images/guitar.png);
+    min-height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.first h1 {
+    font-size: 57px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding-top: 10%;
+}
+.first h3 {
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    padding: 38px 0px 34px 0px;
+}
+.first p {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.sec-first {
+    background-color: rgb(30, 30, 37);
+    min-height: 73em;
+    width: 100%;
+}
+.sec-first h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    padding-top: 3%;
+}
+.sec-first h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding: 38px 0px 32px 0px;
+}
+.sec-first p {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding: 1%;
+}
+
+.sec-first a {
+    background-color: rgba(159, 3, 3, 0.959);
+    width: 23%;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 9px;
+    font-size: 16px;
+    padding: 15px 11px 15px 11px;
+}
+.sec-first a:hover{
+    background-color: rgb(212, 4, 4);
+    transition: 0.5s;
+}
+
+.orange p {
+    margin-top: 9px;
+    font-size: 16px;
+    padding: 30px 1px 10px 1px;
+}
+.orange img {
+    height: 55%;
+    width: 91%;
+    position: relative;
+    left: 4%;
+    padding: 12px 0px 8px 0px;
+    image-orientation: rgba(27, 26, 26, 0.624) (43, 42, 45, 53);
+}
+
+.tird-first {
+    background-color: rgb(255, 255, 255);
+    min-height: 83em;
+    width: 100%;
+}
+.tird-first h3 {
+    color: rgb(30, 30, 37);
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding: 72px 0px 32px 0px;
+}
+.tird-first p {
+    color: rgb(30, 30, 37);
+    font-size: 20px;
+    font-weight: 490;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+}
+
+.tird-first a {
+    background-color: rgba(15, 14, 86, 0.961);
+    width: 23%;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 9px;
+    font-size: 16px;
+    padding: 15px 11px 15px 11px;
+}
+.tird-first a:hover{
+    background-color: rgba(33, 14, 159, 0.886);
+    transition: 0.5s;
+}
+
+.tunx img {
+    height: 47%;
+    width: 91%;
+    position: relative;
+    left: 4.5%;
+    padding: 12px, 0px, 5px, 0px;
+}
+
+.tird {
+    background-image: linear-gradient(rgba(5, 18, 26, 0.619), rgba(38, 20, 73, 0.753)), url(Images/beauty_night.png);
+    min-height: 40em;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.tird h3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding: 8em 0px 36px 0px;
+}
+.tird p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 490;
+    position: relative;
+    text-align: center;
+    padding: 4px;
+}
+
+.gift {
+    background-color: #fff;
+    min-height: 20em;
+    width: 100%;
+    position: relative;
+    display: grid;
+    padding-top: 3%;
+}
+
+.gfts {
+    height: 35%;
+    width: 85%;
+    
+    grid-column: left;
+}
+.gfts h3 {
+    color: rgb(30, 30, 37);
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    left: 3%;
+    padding: 1% 0px 30px 2px;
+}
+.gfts p {
+    color: rgb(30, 30, 37);
+    font-size: 16px;
+    font-weight: 490;
+    position: relative;
+    text-align: left;
+}
+.crd {
+    width: 49%;
+    height: 30%;
+    padding-bottom: 3em;
+}
+.crd img {
+    height: 22rem;
+    width: 33em;
+    position: relative;
+    grid-column: right;
+    left: 7%;
+}
+
+.alredy {
+    padding-top: 7%;
+}
+.line {
+    padding-top: 1%;
+    color:rgba(16, 23, 65, 0.961);
+}
+.redm {
+    width: 16%;
+    position: relative;
+    padding-top: 4px;
+}
+.redm a {
+    color:rgb(7, 18, 63);
+    font-size: 16px;
+    font-weight: 470;
+    text-decoration: none;
+    position: relative;
+}
+.redm a:hover {
+    left: 3%;
+    transition: 0.5s;
+}
+
+.firstf {
+    background-color: #16181b;
+    height: 45vh;
+    min-width: 84.5%;
+    position: relative;
+    display: flex;
+    padding-inline: 6em;
+}
+.one {
+    width: 26%;
+    height: 40%;
+    position: relative;
+    padding-top: 4%;
+}
+.one h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1em;
+    padding-top: 4%;
+}
+.linec h6 {
+    padding-bottom: 34px;
+    color:rgb(214, 214, 214);
+    font-size: 3px;
+    font-weight: 50;
+}
+.one p {
+    width: 45%;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.one a {
+    color: #cecece;
+    text-decoration: none;
+}
+.one a:hover {
+    color:rgba(216, 213, 29, 0.961);
+    font-size: 18px;
+    transition: 1s;
+}
+
+.two {
+    width: 26%;
+    height: 40%;
+    position: relative;
+    padding-top: 4%;
+}
+.two h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1em;
+    padding-top: 4%;
+}
+.linec h6 {
+    padding-bottom: 34px;
+    color:rgb(214, 214, 214);
+    font-size: 3px;
+    font-weight: 50;
+}
+.two p {
+    width: 57%;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.two a {
+    color: #cecece;
+    text-decoration: none;
+}
+.two a:hover {
+    color:rgba(216, 213, 29, 0.961);
+    font-size: 18px;
+    transition: 1s;
+}
+
+.three {
+    width: 20%;
+    height: 40%;
+    position: relative;
+    padding-top: 4%;
+}
+.three h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1em;
+    padding-top: 4%;
+}
+.linec h6 {
+    padding-bottom: 34px;
+    color:rgb(214, 214, 214);
+    font-size: 3px;
+    font-weight: 50;
+}
+.three p {
+    width: 84%;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.three a {
+    color: #cecece;
+    text-decoration: none;
+}
+.three a:hover {
+    color:rgba(216, 213, 29, 0.961);
+    font-size: 18px;
+    transition: 1s;
+}
+
+.four {
+    width: 20%;
+    height: 40%;
+    position: relative;
+    left: 6%;
+    padding-top: 4%;
+}
+.four h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1em;
+    padding-top: 4%;
+}
+.linec h6 {
+    padding-bottom: 34px;
+    color:rgb(214, 214, 214);
+    font-size: 3px;
+    font-weight: 50;
+}
+.four p {
+    width: 84%;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 9px;
+}
+.four a {
+    color: #cecece;
+    text-decoration: none;
+}
+.four a:hover {
+    color:rgba(216, 213, 29, 0.961);
+    font-size: 18px;
+    transition: 1s;
+}
+
+.copyr {
+    background-color: #2f2c2c;
+    width: 100%;
+    height: 15%;
+}
+.copyr p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+    nav {
+        width: 98%;
+        height: 35px;
+        position: relative;
+    }
+    nav a#Tunz::after {
+        content: "|||";
+        transform: rotate(-0deg);
+        width: 20px;
+        height: 30px;
+        display: inline-block;
+        position: relative;
+        top: 2px;
+        padding: 5%;
+    }
+    #Tunz a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .links ul li {
+        display: block;
+        padding-bottom: 15px;
+    }
+    .links {
+        display: none;
+    }
+    .links ul{
+        padding: 27px;
+    }
+
+    .first {
+        background-image: linear-gradient(rgba(15, 22, 58, 0.582), rgb(31, 6, 7)), url(Images/guitar.png);
+        min-height: 38vh;
+        width: 100%;
+    }
+    .first h1 {
+        font-size: 2.5em;
+        color: #fff;
+        position: relative;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .first h3 {
+        color: #fff;
+        font-size: 1.5em;
+        position: relative;
+        text-align: center;
+        padding: 5%;
+    }
+    .first p {
+        display: none;
+    }
+
+    .sec-first {
+        background-color: rgb(30, 30, 37);
+        min-height: 56em;
+        width: 100%;
+    }
+    .sec-first h2 {
+        font-size: 2.5em;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .sec-first h3 {
+        color: #fff;
+        font-size: 1.8em;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        padding: 7.8%;
+    }
+    .sec-first p {
+        color: #fff;
+        font-size: 1.2rem;
+        position: relative;
+        text-align: center;
+        padding-inline-start: 13%;
+        padding-inline-end: 13%;
+        margin-bottom: 9%;
+    }
+    
+    .sec-first a {
+        background-color: rgba(159, 3, 3, 0.959);
+        width: 20%;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 7%;
+    }
+    
+    .orange p {
+        font-size: 1rem;
+        padding-top: 5px;
+        padding-left: 9%;
+        padding-right: 9%;
+        margin: 3px;
+        margin-top: 5%;
+    }
+    .orange img {
+        height: 55%;
+        width: 91%;
+        position: relative;
+        left: 4%;
+        image-orientation: rgba(27, 26, 26, 0.624) (43, 42, 45, 53);
+    }
+
+    .tird-first {
+        background-color: rgb(255, 255, 255);
+        min-height: 45em;
+        width: 100%;
+    }
+    .tird-first h3 {
+        color: rgb(30, 30, 37);
+        font-size: 2em;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        padding: 12%;
+        padding-top: 16%;
+    }
+    .tird-first p {
+        color: rgb(30, 30, 37);
+        font-size: 1.2rem;
+        font-weight: 490;
+        position: relative;
+        text-align: center;
+        padding: 12%;
+        padding-top: 0px;
+    }
+    .tird-first a {
+        background-color: rgba(15, 14, 86, 0.961);
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 6%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .tunx img {
+        height: 47%;
+        width: 91%;
+        position: relative;
+        left: 4.5%;
+        padding-bottom: 8%;
+    }
+
+    .tird {
+        background-image: linear-gradient(rgba(5, 18, 26, 0.619), rgba(38, 20, 73, 0.753)), url(Images/beauty_night.png);
+        min-height: 52em;
+        width: 100%;
+    }
+    .tird h3 {
+        color: rgb(255, 255, 255);
+        font-size: 2em;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        padding: 8%;
+        padding-top: 6em;
+    }
+    .tird p {
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        font-weight: 490;
+        position: relative;
+        text-align: center;
+        padding: 12%;
+        padding-top: 11px;
+    }
+
+    .gift {
+        background-color: #fff;
+        min-height: 20em;
+        width: 100%;
+        position: relative;
+        display: block;
+        padding-top: 5%;
+    }
+    
+    .gfts {
+        height: 35%;
+        width: 78%;
+        position: relative;
+        padding-left: 14%;
+    }
+    .gfts h3 {
+        color: rgb(30, 30, 37);
+        font-size: 1.4rem;
+        font-weight: 700;
+        position: relative;
+        padding: 1% 0px 30px 2px;
+    }
+    .gfts p {
+        color: rgb(30, 30, 37);
+        font-size: 1rem;
+        position: relative;
+        text-align: left;
+    }
+    .crd {
+        width: 49%;
+        height: 30%;
+        padding-bottom: 3em;
+    }
+    .crd img {
+        height: 12rem;
+        width: 18em;
+        position: relative;
+        left: 2em;
+    }
+    
+    .alredy {
+        font-size: 0.5rem;
+        padding-top: 7%;
+        padding-bottom: 4%;
+    }
+    .line {
+        display: none;
+    }
+    .alredy::after {
+        content: '';
+        background: #2f2c2c;
+        height: 0.5px;
+        width: 100%;
+        display: block;
+    }
+    .redm {
+        width: 16%;
+        position: relative;
+        padding-bottom: 4em;
+    }
+    .redm a {
+        color:rgb(7, 18, 63);
+        font-size: 1em;
+        font-weight: 470;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .firstf {
+        display: none;
+    }
+
+    .copyr {
+        background-color: #2f2c2c;
+        width: 100%;
+        height: auto;
+    }
+    .copyr p {
+        font-size: 1rem;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+}
